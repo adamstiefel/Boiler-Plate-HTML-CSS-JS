@@ -1,0 +1,25 @@
+:root {
+    --maincolor: #020b3f;
+    --secondarycolor: #FDFBF9;
+    --accent: #0b60dd;
+
+    --titles: arial;
+    --text: serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--text);
+    background-color: var(--maincolor);
+    color: var(--secondarycolor);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--titles);
+}
+
